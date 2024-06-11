@@ -1,0 +1,43 @@
+export let categories = [
+    "campaign",
+    "commercial",
+    "music video",
+    "documentary",
+    "corporate film",
+    "animation",
+    "short film",
+    "advert",
+    "feature film",
+    "web series",
+    "infomercial",
+    "trailer",
+    "interview",
+    "event coverage",
+    "promo video",
+    "explainer video",
+    "training video",
+    "creative short",
+    "experimental film"
+]
+
+export let categoryScores = {
+    "campaign" : 1.5,
+    "commercial" : 1.5,
+    "music video" : 4,
+    "documentary" : 6,
+    "corporate film" : 4,
+    "animation" : 1,
+    "short film" : 5,
+    "advert" : 1.5,
+    "feature film" : 6,
+    "web series" : 9,
+    "infomercial" : 7,
+    "trailer" : 2,
+    "interview" : 6,
+    "event coverage" : 7,
+    "promo video" : 1.5,
+    "explainer video" : 4,
+    "training video" : 6,
+    "creative short" : 3,
+    "experimental film" : 2.5
+}
