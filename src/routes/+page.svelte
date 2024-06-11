@@ -40,17 +40,19 @@ const handleSubmit = async (event: any) => {
 {/if}
 
 <div class="relative flex items-center justify-center h-screen overflow-hidden">
-    <div class="max-w-md relative z-30 text-white -mt-20 p-8">
-        <h1 class="mb-5 text-4xl font-bold text-center">Find filmmakers now.</h1>
-        <p class="mb-5 text-center">Flicksmith connects you with <strong class="text-yellow-300">amazing directors in the UK.</strong><br />Get pitches & quotes in as little as 48 hours.</p>
-        <form method="POST" on:submit|preventDefault={handleSubmit}>
-            <input type="hidden" value=0 name="question" />
-            <AutoComplete items={categories} />
-            <p class="mb-5 text-center">
-                <button class="btn btn-primary">Get Started</button>
-            </p>
-        </form>
-        <p class="text-sm">Popular: commercial, music video, documentary, corporate film</p>
+    <div class="max-w-md relative z-30 text-white -mt-20">
+        <div class="p-8">
+            <h1 class="mb-5 text-4xl font-bold text-center">Find filmmakers now.</h1>
+            <p class="mb-5 text-center">Flicksmith connects you with <strong class="text-yellow-300">amazing directors in the UK.</strong><br />Get pitches & quotes in as little as 48 hours.</p>
+            <form method="POST" on:submit|preventDefault={handleSubmit}>
+                <input type="hidden" value=0 name="question" />
+                <AutoComplete items={categories} />
+                <p class="mb-5 text-center">
+                    <button class="btn btn-primary">Get Started</button>
+                </p>
+            </form>
+            <p class="text-sm">Popular: commercial, music video, documentary, corporate film</p>
+        </div>
     </div>
 
     <video autoplay muted loop playsinline class="absolute z-10 w-auto min-w-full min-h-full max-w-none">

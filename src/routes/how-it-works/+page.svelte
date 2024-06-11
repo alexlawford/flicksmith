@@ -9,7 +9,7 @@ import Header from '$lib/Header.svelte'
         <h2>1. You Submit a Brief</h2>
         <p>The questionairre you’ll find if you follow the link on the homepage will take you through a step-by-step process to submit a simple brief. This helps directors know exactly what you’re looking for, speeding up the process of developing a pitch. <strong>The more details you can give at this stage, the better</strong></p>
         <h2>2. Flicksmith Reaches Out to Talented Directors</h2>
-        <p>Next, Flicksmith reaches out to our network of talented directors, specifically choosing directors that are suited to your project in terms of content, budget, and other requirements. We help them develop a pitch quickly, but specifically tailored to your needs.</p>
+        <p>Next, Flicksmith reaches out to our network of talented directors, specifically choosing directors that are suited to your project in terms of content, budget, and scope. We help them develop a pitch quickly, but one that’s still specifically tailored to your needs.</p>
         <p>Sometimes, before we get to this stage, one of our team will reach out to you to clarify some details.</p>
         <h2>3. Directors Respond with “Treatments”</h2>
         <p>Between two and three directors will respond with what’s called a <em>treatment</em>.</p>
