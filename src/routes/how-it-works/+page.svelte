@@ -4,7 +4,7 @@ import Header from '$lib/Header.svelte'
 </script>
 <Header bg='bg-base-300' />
 <div class="relative">
-    <article class="prose m-auto max-w-xl mt-12 mb-20">
+    <article class="prose m-auto max-w-xl mt-12 mb-20 p-8">
         <h1>How it Works</h1>
         <h2>1. You Submit a Brief</h2>
         <p>The questionairre you’ll find if you follow the link on the homepage will take you through a step-by-step process to submit a simple brief. This helps directors know exactly what you’re looking for, speeding up the process of developing a pitch. <strong>The more details you can give at this stage, the better</strong></p>

@@ -4,7 +4,7 @@
     </script>
     <Header bg='bg-base-300' />
     <div class="relative">
-        <article class="prose m-auto max-w-xl mt-12 mb-20">
+        <article class="prose m-auto max-w-xl mt-12 mb-20 p-8">
             <h1>FAQ</h1>
             <h2>Do I have to Pay?</h2>
             <p>You only have to pay for film production, not for receiving a pitch.</p>

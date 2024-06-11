@@ -203,7 +203,7 @@ $: f = $filledTo
     </div>
 {/if}
 <div class="relative h-screen">
-    <div class="m-auto max-w-xl mt-12">
+    <div class="m-auto max-w-xl mt-12 p-8">
         <h1 class="mb-5 text-4xl font-bold text-center text-base-content">{inputs[question]?.title}</h1>
         <p class="mb-5 text-center">{inputs[question]?.text}</p>
         {#if question == 1}
