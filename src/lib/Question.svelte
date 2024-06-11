@@ -76,7 +76,7 @@ const inputs = [
     },
     {
         title: "What’s your email?",
-        text: "What email address should we send pitches too? A company email is ideal, if possible.",
+        text: "What email address should we send pitches to? A company email is ideal, if possible.",
         type: "input",
         placeholder: "you@example.com",
         buttonText: "Next →",
