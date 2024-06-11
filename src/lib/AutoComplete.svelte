@@ -14,10 +14,10 @@
 
 </script>
 
-<div class="dropdown w-96">
+<div class="dropdown text-center">
   <input 
 		name="category"
-		class="input input-bordered mb-5 w-96 text-black" 
+		class="input input-bordered mb-5 w-full max-w-100 min-w-none text-black" 
 		placeholder="Pick a category"
 		bind:value={inputVal}
    />

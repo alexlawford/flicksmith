@@ -28,7 +28,24 @@ const handleSubmit = async (event: any) => {
     }
 }
 
+// <div class="relative flex items-center justify-center h-screen overflow-hidden">
+//     <div class="relative z-30 text-white -mt-20 basis-80">
+//         <div class="p-8">
+//         </div>
+//     </div>
+
+//     <video autoplay muted loop playsinline class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
+//         <source src="/background.mp4" type="video/mp4">
+//     </video>
+// object-cover w-screen h-screen fixed left-0 top-0
+// </div>
+
 </script>
+
+<video autoplay muted loop playsinline class="object-cover w-screen h-screen fixed left-0 top-0 -z-20">
+    <source src="/background.mp4" type="video/mp4">
+</video>
+
 
 <Header bg='bg-base-100' />
 
@@ -39,9 +56,9 @@ const handleSubmit = async (event: any) => {
     </div>
 {/if}
 
-<div class="relative flex items-center justify-center h-screen overflow-hidden">
-    <div class="max-w-md relative z-30 text-white -mt-20">
-        <div class="p-8">
+<div class="min-h-screen">
+    <div class="text-center z-30">
+        <div class="max-w-md text-white mt-20 mx-auto p-8">
             <h1 class="mb-5 text-4xl font-bold text-center">Find filmmakers now.</h1>
             <p class="mb-5 text-center">Flicksmith connects you with <strong class="text-yellow-300">amazing directors in the UK.</strong><br />Get pitches & quotes in as little as 48 hours.</p>
             <form method="POST" on:submit|preventDefault={handleSubmit}>
@@ -54,8 +71,5 @@ const handleSubmit = async (event: any) => {
             <p class="text-sm">Popular: commercial, music video, documentary, corporate film</p>
         </div>
     </div>
-
-    <video autoplay muted loop playsinline class="absolute z-10 w-auto min-w-full min-h-full max-w-none">
-        <source src="/background.mp4" type="video/mp4">
-    </video>
 </div>
+
